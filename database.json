@@ -1,0 +1,20 @@
+{
+    "photos": {
+        "photo0": {
+            "title": "Weddings",
+            "image": "/images/IMG_6304.jpg"
+        },
+        "photo1": {
+            "title": "Mr&Mrs",
+            "image": "/images/Matterings.jpg"
+        },
+        "photo2": {
+            "title": "Baby",
+            "image": "/images/160418_JohnBrowning2_7304.jpg"
+        },
+        "photo3": {
+            "title": "Grads",
+            "image": "/images/Seniors.jpg"
+        }
+    }
+}   
