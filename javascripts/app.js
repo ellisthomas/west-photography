@@ -1,1 +1,1 @@
-var app = angular.module("WestApp",["ngRoute"]);
+var app = angular.module("WestApp",["ngAnimate", "ngRoute", "ngSanitize", "ui.bootstrap"]);
