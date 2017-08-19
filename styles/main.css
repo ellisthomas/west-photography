@@ -11,3 +11,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: top; }
+
+h1 {
+  color: white;
+  font-size: 125px;
+  text-align: center;
+}
