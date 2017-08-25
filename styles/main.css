@@ -6,6 +6,8 @@ body {
   background-attachment: fixed; }
 
 .motto {
+  letter-spacing: .1em;
+  text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636;
   font-family: 'Allura', cursive;
   font-size: 100px;
   padding: 70px 0;
@@ -83,6 +85,11 @@ body {
   background-color: #555;
   /* Add a dark-grey background on hover */ }
 
-footer {
-  color: lightblue;
-  position: bottom; }
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: white; }
