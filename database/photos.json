@@ -1,20 +1,48 @@
 {
-    "photos": {
-        "photo0": {
+    "photos":
+    {
+        "photo0":
+        {
             "title": "Weddings",
             "image": "/images/IMG_6304.jpg"
         },
-        "photo1": {
+        "photo1":
+        {
             "title": "Mr&Mrs",
             "image": "/images/Matterings.jpg"
         },
-        "photo2": {
+        "photo2":
+        {
             "title": "Baby",
             "image": "/images/160418_JohnBrowning2_7304.jpg"
         },
-        "photo3": {
+        "photo3":
+        {
             "title": "Grads",
             "image": "/images/Seniors.jpg"
         }
+    },
+    "Weddings":
+    {
+        "wedding0":
+        {
+            "title": "Weddings",
+            "image": "/images/IMG_6304.jpg"
+        },
+        "wedding1":
+        {
+            "title": "Weddings",
+            "image": "/images/Matterings.jpg"
+        },
+        "wedding2":
+        {
+            "title": "Weddings",
+            "image": "/images/160418_JohnBrowning2_7304.jpg"
+        },
+        "wedding3":
+        {
+            "title": "Weddings",
+            "image": "/images/Seniors.jpg"
+        }
     }
-}   
+}

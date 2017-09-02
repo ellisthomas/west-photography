@@ -1,4 +1,20 @@
-<div class="container-fluid bg-3 text-center">
+
+<h3>hey</h3>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div ng-repeat="photo in photos | filter: searchText">
+                <div class="col-md-4 col-sm-6">
+                    <div class="thumbnail">
+                        <a ng-href="{{photo.image}}"><img ng-src="{{photo.image}}" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="container-fluid bg-3 text-center">
   <div class="row">
       <div class="text-effect col-sm-3">
         <img ng-src="/images/IMG_6304.jpg" class="img-responsive image" style="width:100%" alt="Image">
@@ -25,10 +41,10 @@
             <div class="middle">
                 <button class="text">Nature</button>
             </div>
-        </div>
-  </div> <!-- row -->
-</div> <!-- container -->
-<br>
+        </div> -->
+<!--   </div> --> <!-- row -->
+<!-- </div>  --><!-- container -->
+<!-- <br>
 <div class="container-fluid bg-3 text-center">
   <div class="row">
       <div class="text-effect col-sm-3">
@@ -56,9 +72,9 @@
             <div class="middle">
                 <button class="text">Sports</button>
             </div>
-        </div>
-  </div> <!-- row -->
-</div> <!-- container -->
+        </div> -->
+<!--   </div> --> <!-- row -->
+<!-- </div> --> <!-- container -->
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
