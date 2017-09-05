@@ -1,7 +1,7 @@
 app.factory("PhotographyFactory", function($q, $http, FIREBASE_CONFIG) {
 
 
-    let getAllWeddingPhotos = (id) => {
+    let getAllWeddingPhotos = () => {
         let weddingz = [];
         return $q((resolve, reject) => {
             $http.get(`${FIREBASE_CONFIG.databaseURL}/weddings.json`)

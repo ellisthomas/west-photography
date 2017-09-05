@@ -1,15 +1,17 @@
-app.controller("WeddingCtrl", function($location, $rootScope, $scope, PhotographyFactory) {
+
+
+app.controller("WeddingCtrl", function($scope, PhotographyFactory) {
 	$scope.weddings = [];
 
 	let getWeddingPhotos = () => {
-		PhotographyFactory.getAllWeddingPhotos($rootScope).then((weddingz) => {
+		PhotographyFactory.getAllWedding().then((weddingz) => {
 			$scope.weddings = weddingz;
+			console.log("weddingz", weddingz);
 		}).catch((error) => {
-			console.log("get wedding error", error);
+			console.log("get weddings error");
 		});
 	};
 
 	getWeddingPhotos();
-
 
 });
