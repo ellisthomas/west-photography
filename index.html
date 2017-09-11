@@ -22,7 +22,8 @@
 
 <body ng-app="WestApp">
     <div ng-include="'/partials/navbar.html'"></div>
-        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
         <div ng-view></div>
 </body>
 
@@ -41,6 +42,7 @@
     <script type="text/javascript" src="/javascripts/app.js"></script>
     <script type="text/javascript" src="/javascripts/AppConfig.js"></script>
     <script type="text/javascript" src="/javascripts/AppConstants.js"></script>
+    <script type="text/javascript" src="/javascripts/scroll.js"></script>
 
     <script type="text/javascript" src="/javascripts/factories/PhotographyFactory.js"></script>
 
@@ -48,6 +50,7 @@
     <script type="text/javascript" src="/javascripts/controllers/HomeCtrl.js"></script>
     <script type="text/javascript" src="/javascripts/controllers/GalleryCtrl.js"></script>
     <script type="text/javascript" src="/javascripts/controllers/WeddingCtrl.js"></script>
+    <script type="text/javascript" src="/javascripts/controllers/ContactCtrl.js"></script>
 
 
 </html>

@@ -16,6 +16,7 @@ app.config(function($routeProvider) {
         })
         .when("/wedding", {
             templateUrl: "partials/wedding.html",
+            controller: "WeddingCtrl"
         })
         .when("/about", {
             templateUrl: "partials/about.html",
