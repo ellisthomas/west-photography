@@ -32,8 +32,13 @@ body {
 }
 
 .navbar {
-    // background-color: lightblue;
-    color: white;
+    background-color: #FFB1B1;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Dancing Scrip', cursive;
+    font-size: 22px;
+    color: #FFF;
 }
 
 // // h1 {
@@ -132,7 +137,7 @@ body {
 
 .nav {
     font-size: 16px;
-    color: #974949;
+    color: #FFF;
 }
 
 ///// Contact form /////////
