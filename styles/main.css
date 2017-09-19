@@ -4,13 +4,28 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
+.social-media a {
+  color: #FFB1B1;
+  justify-content: space-between;
+}
+
+
+
+.home-background {
+  background-image: url("../images/mwp.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 150px; }
+
 .motto {
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
   font-family: 'Dancing Script', cursive;
   font-size: 100px;
   padding: 70px 0;
   text-align: center;
   margin-top: 150px;
-  color: #000; }
+  color: #FFF;
+  opacity: 0.5; }
 
 .navbar {
   background-color: #FFB1B1; }
@@ -71,7 +86,7 @@ body {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: red;
+  background-color: #974949;
   /* Set a background color */
   color: white;
   /* Text color */
@@ -150,7 +165,7 @@ form {
         top: 12px;
         left: 7%;
         font-size: 2.5em;
-        text-shadow: 1px 2px 0 orange;
+        text-shadow: 1px 2px 0 #974949;
         -webkit-transition: all 333ms ease-in-out;
         -moz-transition: all 333ms ease-in-out;
         -o-transition: all 333ms ease-in-out;
@@ -188,11 +203,11 @@ form {
         form .field textarea:focus + label,
         form .field textarea.focused + label {
           width: 18%;
-          background: orange;
+          background: #974949;
           color: #FFF; }
       form .field input[type="text"].focused + label,
       form .field textarea.focused + label {
-        color: orange; }
+        color: #974949; }
     form .field:hover label {
       width: 18%;
       background: #974949;
@@ -219,4 +234,4 @@ form {
       color: #808080; }
     form input[type="submit"]:focus {
       outline: none;
-      background: orange; }
+      background: #974949; }

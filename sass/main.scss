@@ -16,19 +16,28 @@ body {
     //   background-position: top;
 }
 
+.home-background {
+    background-image: url("../images/mwp.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 150px;
+    // background-size: cover;
+}
+
 /////fonts/////
 .motto {
     // color: #202020;
     // background-color: #2d2d2d;
     // letter-spacing: .1em;
-    // text-shadow: -1px -1px 1px #111,
-    // 2px 2px 1px #363636;
+    text-shadow: -1px -1px 1px #111,
+    2px 2px 1px #363636;
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
     padding: 70px 0;
     text-align: center;
     margin-top: 150px;
-    color: #000;
+    color: #FFF;
+    opacity: 0.5;
 }
 
 .navbar {
