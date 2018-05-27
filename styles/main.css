@@ -1,14 +1,17 @@
-body {
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed; }
-
 .home-background {
-  background: url("../images/15267863_10157846062305164_1240896414128498348_n.jpg");
+  background-image: url("../images/westHome.jpg");
   background-repeat: no-repeat;
-  background-position: top;
-  margin-top: 150px; }
+  background-position: center;
+  height: auto;
+  left: 0;
+  margin: auto;
+  min-height: 100%;
+  min-width: 674px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1; }
 
 .motto {
   text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
