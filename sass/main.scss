@@ -17,7 +17,7 @@ body {
 }
 
 .home-background {
-    background-image: url("../images/mwp.jpeg");
+    background-image: url("../images/15267863_10157846062305164_1240896414128498348_n.jpg);
     background-repeat: no-repeat;
     background-position: top;
     margin-top: 150px;
@@ -47,6 +47,10 @@ body {
 .navbar-default .navbar-brand {
     font-family: 'Dancing Scrip', cursive;
     font-size: 22px;
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
 

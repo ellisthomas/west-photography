@@ -5,10 +5,13 @@ body {
   background-attachment: fixed; }
 
 .home-background {
-  background-image: url("../images/mwp.jpeg");
-  background-repeat: no-repeat;
-  background-position: top;
-  margin-top: 150px; }
+  background: url("../images/15267863_10157846062305164_1240896414128498348_n.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  /*background-position: top;*/
+  filter: grayscale(90%);
+}
 
 .motto {
   text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
