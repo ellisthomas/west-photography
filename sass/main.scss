@@ -17,7 +17,7 @@ body {
 }
 
 .home-background {
-    background-image: url("../images/15267863_10157846062305164_1240896414128498348_n.jpg);
+    background: url("../images/15267863_10157846062305164_1240896414128498348_n.jpg");
     background-repeat: no-repeat;
     background-position: top;
     margin-top: 150px;
@@ -282,7 +282,7 @@ form {
                 @include ease(333ms);
             }
         } // Fields
-        input[type="text"],
+        input,
         textarea {
             border: none; // background:$field-color;
             width: 100% - $hover-label-width - $placeholder-bumper;
@@ -327,7 +327,7 @@ form {
             }
         }
     } // Submit Button
-    input[type="submit"] {
+    input {
         background: #808080;
         color: white;
         -webkit-appearance: none;
