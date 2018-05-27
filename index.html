@@ -7,21 +7,24 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
     
 </head>
 
 <body ng-app="WestApp">
     <div ng-include="'/partials/navbar.html'"></div>
-        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
         <div ng-view></div>
 </body>
 
@@ -40,13 +43,15 @@
     <script type="text/javascript" src="/javascripts/app.js"></script>
     <script type="text/javascript" src="/javascripts/AppConfig.js"></script>
     <script type="text/javascript" src="/javascripts/AppConstants.js"></script>
-    <script type="text/javascript" src="javascripts/scroll.js"></script>
+    <script type="text/javascript" src="/javascripts/scroll.js"></script>
 
     <script type="text/javascript" src="/javascripts/factories/PhotographyFactory.js"></script>
 
-    <script type="text/javascript" src="/javascripts/controllers/GalleryCtrl.js"></script>
-    <script type="text/javascript" src="/javascripts/controllers/HomeCtrl.js"></script>
     <script type="text/javascript" src="/javascripts/controllers/NavCtrl.js"></script>
+    <script type="text/javascript" src="/javascripts/controllers/HomeCtrl.js"></script>
+    <script type="text/javascript" src="/javascripts/controllers/GalleryCtrl.js"></script>
+    <script type="text/javascript" src="/javascripts/controllers/WeddingCtrl.js"></script>
+    <script type="text/javascript" src="/javascripts/controllers/ContactCtrl.js"></script>
 
 
 </html>

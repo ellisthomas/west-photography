@@ -1,3 +1,9 @@
+app.run(function($location, $rootScope, FIREBASE_CONFIG, PhotographyFactory) {
+  firebase.initializeApp(FIREBASE_CONFIG);
+
+});
+
+
 app.config(function($routeProvider) {
     $routeProvider
         .when("/home", {
@@ -7,6 +13,10 @@ app.config(function($routeProvider) {
         .when("/gallery", {
             templateUrl: "partials/gallery.html",
             controller: "GalleryCtrl"
+        })
+        .when("/wedding", {
+            templateUrl: "partials/wedding.html",
+            controller: "WeddingCtrl"
         })
         .when("/about", {
             templateUrl: "partials/about.html",
