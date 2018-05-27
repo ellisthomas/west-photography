@@ -1,17 +1,17 @@
-body {
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed; }
-
 .home-background {
-  background: url("../images/15267863_10157846062305164_1240896414128498348_n.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-  /*background-position: top;*/
-  filter: grayscale(90%);
-}
+  background-image: url("../images/westHome.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  left: 0;
+  margin: auto;
+  min-height: 100%;
+  min-width: 674px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1; }
 
 .motto {
   text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
@@ -29,6 +29,9 @@ body {
 .navbar-default .navbar-brand {
   font-family: 'Dancing Scrip', cursive;
   font-size: 22px;
+  color: #FFF; }
+
+.navbar-default .navbar-nav > li > a {
   color: #FFF; }
 
 .text-effect {
@@ -167,7 +170,7 @@ form {
         -o-transition: all 333ms ease-in-out;
         -ms-transition: all 333ms ease-in-out;
         transition: all 333ms ease-in-out; }
-    form .field input[type="text"],
+    form .field input,
     form .field textarea {
       border: none;
       width: 80.5%;
@@ -178,7 +181,7 @@ form {
       font-size: 1.4em;
       letter-spacing: 0.05em;
       text-transform: uppercase; }
-      form .field input[type="text"]#msg,
+      form .field input#msg,
       form .field textarea#msg {
         height: 18px;
         resize: none;
@@ -187,28 +190,28 @@ form {
         -o-transition: all 333ms ease-in-out;
         -ms-transition: all 333ms ease-in-out;
         transition: all 333ms ease-in-out; }
-      form .field input[type="text"]:focus, form .field input[type="text"].focused,
+      form .field input:focus, form .field input.focused,
       form .field textarea:focus,
       form .field textarea.focused {
         outline: none; }
-        form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+        form .field input:focus#msg, form .field input.focused#msg,
         form .field textarea:focus#msg,
         form .field textarea.focused#msg {
           padding-bottom: 150px; }
-        form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+        form .field input:focus + label, form .field input.focused + label,
         form .field textarea:focus + label,
         form .field textarea.focused + label {
           width: 18%;
           background: orange;
           color: #FFF; }
-      form .field input[type="text"].focused + label,
+      form .field input.focused + label,
       form .field textarea.focused + label {
         color: orange; }
     form .field:hover label {
       width: 18%;
       background: #974949;
       color: white; }
-  form input[type="submit"] {
+  form input {
     background: #808080;
     color: white;
     -webkit-appearance: none;
@@ -225,9 +228,9 @@ form {
     -o-transition: all 333ms ease-in-out;
     -ms-transition: all 333ms ease-in-out;
     transition: all 333ms ease-in-out; }
-    form input[type="submit"]:hover {
+    form input:hover {
       background: #974949;
       color: #808080; }
-    form input[type="submit"]:focus {
+    form input:focus {
       outline: none;
       background: orange; }
